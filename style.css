@@ -50,12 +50,14 @@ header{
        
     }
 
-header div{
+.container{
     width: 1160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+    margin: auto;
+    margin-left: 10px;
 }
     
     /* 2)main-images */
@@ -105,4 +107,20 @@ header div{
     }
     .buissnes-description{
         width: 570px;
+    }
+    
+    footer{
+        background-color: #8fb900;
+        color: #fff;
+        margin-top: 80px;
+    }
+    footer a{
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    footer p{
+        font-size: 22px;
+        font-weight: bold;
     }
